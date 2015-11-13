@@ -33,10 +33,11 @@ gem 'devise'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-
+group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-
+  gem 'sqlite3'
+end
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 
@@ -50,5 +51,5 @@ gem 'devise'
   gem 'nokogiri'
   gem 'utf8_utils'
   gem 'pg'
-  
+
 
