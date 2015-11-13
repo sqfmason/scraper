@@ -47,5 +47,6 @@ group :development, :test do
   gem "validate_url"
   #Nokogiri
   gem 'nokogiri'
+  gem "utf8_utils"
 end
 
